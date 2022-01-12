@@ -1,43 +1,218 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
+  <html>
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
-  </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
+    <!---HEAD-->
+    <head>
+      <meta charset="utf-8" />
+      <title>Sarabeth's eFuse Work Sample</title>
 
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
-  </body>
-</html>
+      <!---linking css to html code-->
+      <link rel="stylesheet" href="style.css">
+
+      <!--linking fontawesome to html code-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+
+
+    <!--BODY-->
+    <body>
+
+
+      <!-------------------------- POST BOX STARTS-------------------------->
+
+
+      <!--2 bodies of post-box w/ divider line-->
+      <div class="post-box"></div>
+      <div class="postbox-addon"></div>
+      <p id="line-one">_____________________________________________________________________</p>
+     
+              <!--manual placeholder for post box prompt-->
+              <p id="post-prompt">What is on your mind?</p>
+              
+              <!--profile img of user-->
+              <div class= "profile-pic"><img src="profilepic.png" width="65" height="60"></div>
+
+
+              <!--text post and photo/video post buttons-->
+              <div><input id="post-button" type="button" value="Post it"></div>
+              <div><input id="photo-button" type="button" value="Photo/Video"></div>
+              
+                        <!--icon for photo-video posting-->
+                        <div id="photovideo-icon">
+                          <i class="fa fa-photo"></i>
+                        </div>
+
+      <!--break to add space between posts-->
+      <br></br>
+
+      <!-------------------------- POST BOX ENDS-------------------------->
+
+
+
+
+
+
+
+
+
+
+      <!-------------------------- POST ONE STARTS-------------------------->
+     
+
+      <!--two bodies of post one with line-->
+      <div class="post-one"></div>
+      <div class="post-one-addon"></div>
+      <p id="line-two">_____________________________________________________________________</p>
+      
+
+              <!--post by user-->
+              <p id="comment-one">Testing the new posts/comments. Woof!</p>
+
+              <!--profile name of user-->
+              <p id="profile-name-one">Dr. Bones</p>
+
+              <!--profile pic of user-->
+              <div class= "profile-pic-post-one"><img src="profilepic.png" width="75" height="70"></div>
+
+              <!--location of user with icon-->
+              <p id="location-one"> OH,USA</p>
+              <div id="map-marker-icon-one">
+                <i class="fa fa-map-marker" ></i>
+              </div>
+
+              <!--time of post relative to current time-->
+              <p id="time-one">1 minute ago</p>
+
+              <!--likes and comment amount seperated by dot-->
+              <p id="likes-one">0 likes</p>
+              <p id="dot-one"> •</p>
+              <p id="comments-one">0 comments</p>
+
+              <!--like action and comment action with icons imported-->
+              <p id="like-action-one">Like</p>
+                <div id="like-icon-one">
+                  <i class="fa fa-heart" ></i>
+                </div>
+              <p id="comment-action-one">Comment</p>
+                <div id="comment-icon-one">
+                  <i class="fa fa-comment" ></i>
+                </div>
+
+              <!---three dots in top right corner-->
+              <p id="three-dots-one">•••</p>
+             
+      <!--break to add space between posts-->
+      <br></br>
+
+      <!-------------------------- POST ONE ENDS-------------------------->
+
+
+
+
+
+
+
+
+
+
+      <!-------------------------- POST TWO STARTS-------------------------->
+    
+
+
+      <!--two bodies of post two with line-->
+      <div class="post-two"></div>
+      <div class="post-two-addon"></div>
+      <p id="line-three">_____________________________________________________________________</p>
+
+                <!---text post of user---->
+                <p id="comment-two">Hello, World! Looking for Scooby Snacks</p>
+                
+
+                <!---profile name of user-->
+                <p id="profile-name-two">Dr. Bones</p>
+
+                <!--profile pic of user----->
+                <div class= "profile-pic-post-two"><img src="profilepic.png" width="75" height="70"></div>
+
+                <!--location of post with icon-->
+                <p id="location-two"> OH,USA</p>
+                <div id="map-marker-icon-two">
+                  <i class="fa fa-map-marker" ></i>
+                </div>
+              
+                
+                <!--time of post relative to current time-->
+                <p id="time-two">12 minutes ago</p>
+
+                <!---amount of likes and comments seperated by dot-->
+                <p id="likes-two">1 like</p>
+                <p id="dot-two"> •</p>
+                <p id="comments-two">1 comment</p>
+
+
+                <!--like action and comment action with icons imported-->
+                <p id="like-action-two">Like</p>
+                    <div id="like-icon-two">
+                      <i class="fa fa-heart" ></i>
+                    </div>
+                <p id="comment-action-two">Comment</p>
+                    <div id="comment-icon-two">
+                      <i class="fa fa-comment" ></i>
+                    </div>
+
+
+                <!---three dots in upper right hand corner-->
+                <p id="three-dots-two">•••</p>
+                
+                <!---DIALOGUE BEGINS-->
+
+                        <!--prompt to add comment-->
+                        <p id="comment-prompt">Add a comment</p>
+
+                        <!--profile pic1 next to comment prompt--->
+                        <div class= "profile-pic1"><img src="profilepic.png" width="55" height="50"></div>
+                        
+    
+                                    <!--comment of user to other users post-->
+                                    <p id="comment-to-post">This is what a comment looks like!</p>
+
+                                    <!--profile pic, name, and identity identified in comment-->
+                                    <div class= "profile-pic2"><img src="profilepic.png" width="55" height="50"></div>
+                                    <p id="profile-name-comment">Dr. Bones</p>
+                                    <p id="identity">Professional- Student</p>
+
+                                    <!--comment time relative to current time-->
+                                    <p id="comment-time">11 minutes ago</p>
+                                    
+
+                                    <!---like amount-->
+                                    <p id="like-amount">0 likes</p>
+
+                                    <!--dividers between like, edit, and delete button to commenter-->
+                                    <p id="divider-one">|</p>
+                                    <p id="divider-two">|</p>
+                                    <p id="divider-three">|</p>
+
+                                    <!---like, edit, and delete buttons with icons imported-->
+                                    <p id="like-button-comment">Like</p>
+                                        <div id="like-icon-three">
+                                          <i class="fa fa-heart" ></i>
+                                        </div>
+
+                                    <p id="edit-button-comment">Edit</p>
+                                        <div id="edit-icon-one">
+                                          <i class="fa fa-edit" ></i>
+                                        </div>
+
+                                    <p id="delete-button-comment">Delete</p>
+                                        <div id="delete-icon-one">
+                                          <i class="fa fa-trash" ></i>
+                                        </div>
+
+
+                <!-----DIALOGUE ENDS-->
+      <br></br>
+    </body>
+  </html>

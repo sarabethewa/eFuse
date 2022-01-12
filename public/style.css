@@ -1,0 +1,625 @@
+body{
+    background-color: rgb(226, 230, 236);
+}
+  
+/***************************************************************START OF POST BOX STYLING******************************************************/
+
+        /**base post box with addon and line**/
+        .post-box{
+            height:180px;
+            background-color:white;
+            width:550px;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            margin-left:20px;
+            border-color: lightgray;
+            border-bottom-color: darkgray;
+            border-bottom-width:50px;
+            
+        }
+
+        .postbox-addon{
+            position:absolute;
+            width:550px;
+            bottom:710px;
+            height:48px;
+            left:28px;
+            background-color:rgb(255, 254, 254);
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+        }
+
+        #line-one{
+            position:absolute;
+            bottom:755px;
+            left:28px;
+                color:lightgray;
+        }
+
+        /**profile pic of user**/
+        .profile-pic{
+
+            position:absolute;
+            bottom:850px;
+            left: 50px;;  
+        }
+
+       
+        /**prompt inside post box**/
+        #post-prompt{
+            position:absolute;
+            left:130px;
+            bottom:850px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size:18px;
+            color:rgb(157, 167, 177);
+
+        }
+
+        /**post button**/
+        #post-button{
+            background-color: #4ea0df;
+            color: white;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            border-color:#80bbe9;
+            position:absolute;
+            bottom:724px;
+            left:480px;
+            border-radius: 4px;
+            font-size:14px;
+            padding:5px;
+            padding-left:13px;
+            padding-right:13px;
+            padding-top:6px;
+            padding-bottom:6px;
+        
+        }
+
+        /**photo button with icon**/
+        #photo-button{
+            background-color: black;
+            color:white;
+            position:absolute;
+            bottom:721px;
+            left:48px;
+            border-radius: 20px;
+            font-size:16px;
+            padding-bottom:10px;
+            padding-left:35px;
+            padding-right:10px;
+            padding-top: 10px;
+            font-size:12px;
+            border-color:black;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        .fa-photo{
+            position: absolute;
+            bottom:732px;
+            left:61px;
+            size: 1px;
+            color:white;
+        }
+
+/***************************************************************END OF POST BOX STYLING******************************************************/
+
+
+
+
+
+
+
+
+
+/***************************************************************START OF POST ONE STYLING******************************************************/
+        
+        /**post one with addon and line **/
+        .post-one{
+            height:180px;
+            background-color:white;
+            width:550px;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            position:absolute;
+            bottom:505px;
+            margin-left:20px;
+        
+            
+        }
+        .post-one-addon{
+            position:absolute;
+            width:550px;
+            bottom:460px;
+            height:48px;
+            left:28px;
+            background-color:rgb(243, 243, 243);
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+
+        }
+
+        #line-two{
+            position:absolute;
+            bottom:490px;
+            left:28px;
+            color:lightgray;
+
+        }
+
+        /**user's profile name**/
+        #profile-name-one{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: rgb(83, 83, 83);
+            position: absolute;
+            bottom:620px;
+            left:130px;
+            font-size: 20px;
+        }
+
+        /**location and icon**/
+        #location-one{
+            color:rgb(27, 138, 212);   
+            position: absolute;
+            bottom:610px;
+            left:145px;
+            font-size:12px;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            
+        }
+        .fa-map-marker{
+            position: absolute;
+            bottom:624px;
+            left:130px;
+            color:rgb(27, 138, 212);   
+        }
+
+        /**profile pic for user's first post**/
+        .profile-pic-post-one{
+            position:absolute;
+            bottom: 597px;
+            left:40px;
+
+        }
+
+        /**time of post**/
+        #time-one{
+            position: absolute;
+            bottom:600px;
+            left:130px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size:10px;
+            color:gray;
+        }
+      
+        /**likes and comments with dot seperating in between**/
+        #likes-one{
+            position:absolute;
+            bottom:500px;
+            left:60px;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            color:rgb(150, 150, 150);
+        }
+
+        #dot-one{
+            position:absolute;
+            bottom:500px;
+            left:125px;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            color:rgb(92, 92, 92);
+        }
+
+        #comments-one{
+            position:absolute;
+            bottom:500px;
+            left:143px;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            color:rgb(92, 92, 92);
+
+        }
+
+        /**like and comment actions with icons**/
+        #like-action-one{
+            position:absolute;
+            bottom:455px;
+            left:80px;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            color:rgb(92, 92, 92);
+            font-size:18px;
+        }
+
+        #comment-action-one{
+            position:absolute;
+            bottom:455px;
+            left:160px;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            color:rgb(92, 92, 92);
+            font-size:18px;
+
+        }
+
+        .fa-heart{
+            position:absolute;
+            bottom:476px;
+            left:60px;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            color:rgb(92, 92, 92);
+            font-size:18px;
+        }
+
+        .fa-comment{
+            position:absolute;
+            bottom:477px;
+            left:137px;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            color:rgb(92, 92, 92);
+            font-size:18px;
+
+        }
+
+        /**three dots in upper right hand corner**/
+        #three-dots-one{
+            position:absolute;
+            bottom:630px;
+            left:530px;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            color:rgb(43, 43, 43);
+            font-size:18px;
+        }
+
+        /**text comment**/
+        #comment-one{
+            position:absolute;
+            bottom:540px;
+            left:58px;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            color:rgb(95, 95, 95);
+            font-size:17px;
+        }
+
+/***************************************************************END OF POST ONE STYLING******************************************************/
+
+
+
+
+
+
+
+/***************************************************************START OF POST TWO STYLING******************************************************/
+
+/**post two with addon and line***/
+.post-two{
+    height:200px;
+    background-color:white;
+    width:550px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-left:20px;
+    border-color: lightgray;
+    position:absolute;
+    bottom:230px;
+}
+
+.post-two-addon{
+    position:absolute;
+    width:550px;
+    bottom:-80px;
+    height:315px;
+    left:28px;
+    background-color:rgb(243, 243, 243);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+
+#line-three{
+    position:absolute;
+    bottom:216px;
+    left:28px;
+    color:lightgray;
+
+}
+
+
+/**user's profile name**/
+#profile-name-two{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(83, 83, 83);
+    position: absolute;
+    bottom:360px;
+    left:128px;
+    font-size: 20px;
+}
+
+/**location and icon**/
+#location-two{
+    color:rgb(27, 138, 212);   
+    position: absolute;
+    bottom:350px;
+    left:148px;
+    font-size:12px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+#map-marker-icon-two{
+    position: absolute;
+    bottom:-261px;
+    left:1px;
+    color:rgb(27, 138, 212);   
+
+}
+
+/**user's profile pic**/
+.profile-pic-post-two{
+    position:absolute;
+    bottom: 340px;
+    left:40px;
+
+
+}
+
+
+/**time posted**/
+#time-two{
+    position: absolute;
+    bottom:339px;
+    left:130px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:10px;
+    color:gray;
+}
+
+/**like and comment count with dot in between**/
+#likes-two{
+    position:absolute;
+    bottom:224px;
+    left:60px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(150, 150, 150);
+}
+
+#dot-two{
+    position:absolute;
+    bottom:224px;
+    left:125px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(92, 92, 92);
+}
+
+#comments-two{
+    position:absolute;
+    bottom:224px;
+    left:143px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(92, 92, 92);
+
+}
+
+
+/**comment and like actions with icons**/
+#comment-action-two{
+    position:absolute;
+    bottom:180px;
+    left:160px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(92, 92, 92);
+    font-size:18px;
+
+}
+
+#like-action-two{
+    position:absolute;
+    bottom:180px;
+    left:80px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(92, 92, 92);
+    font-size:18px;
+}
+
+#like-icon-two{
+    position:absolute;
+    color:slategray;
+    bottom:-275px;
+    left:-1px;
+}
+
+#comment-icon-two{
+    position:absolute;
+    color:slategray;
+    bottom:-275px;
+    left:-2px;
+}
+
+
+/**three dots in upper right hand corner**/
+#three-dots-two{
+    position:absolute;
+    bottom:370px;
+    left:530px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(43, 43, 43);
+    font-size:18px;
+}
+
+/**actual comment/post2**/
+#comment-two{
+    position:absolute;
+    bottom:275px;
+    left:58px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(95, 95, 95);
+    font-size:17px;
+}
+
+
+
+/**profile pic to comment prompt and comment prompt**/
+.profile-pic1{
+    position:absolute;
+    bottom:120px;
+    left: 50px;
+}
+
+#comment-prompt{
+    position:absolute;
+    bottom:110px;
+    left:125px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(146, 146, 146);
+    font-size:16px;
+    border: 1px solid rgb(0, 0, 0);
+    padding-left:20px;
+    padding-right:275px;
+    border-radius:50px;
+    padding-top:15px;
+    padding-bottom:15px;
+
+}
+
+/**comment response to post2 with profile pic **/
+
+.profile-pic2{
+    position:absolute;
+    bottom:-10px;
+    left: 50px;
+
+}
+
+#comment-to-post{
+    color: rgb(78, 78, 78);
+    position:absolute;
+    bottom:-70px;
+    left:125px;
+    width:375px;
+    height:10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(215, 227, 240);
+    border-radius:10px;
+    padding-left:20px;
+    padding-right:30px;
+    padding-top:80px;
+    padding-bottom:70px;
+}
+
+/**profile name to comment response, as well as identity, comment time, and like amount**/
+
+#profile-name-comment{
+    position:absolute;
+    bottom:40px;
+    left:145px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:18px;
+    color: rgb(83, 83, 83);
+}
+
+#identity{
+    position: absolute;
+    bottom:20px;
+    left:145px;
+    color:rgb(27, 138, 212); 
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#comment-time{
+    color:lightslategrey;
+    position:absolute;
+    left:435px;
+    bottom:52px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:13px;
+}
+
+#like-amount{
+    color:rgb(163, 163, 163);
+    position:absolute;
+    bottom:-50px;
+    left:150px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:14px;
+  
+}
+
+/**dividers to seperate like, edit, and delete**/
+#divider-one{
+    color:lightslategrey;
+    position:absolute;
+    bottom:-53px;
+    left:210px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:14px;
+}
+
+#divider-two{
+    color:lightslategrey;
+    position:absolute;
+    bottom:-53px;
+    left:280px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:14px;
+}
+
+#divider-three{
+    color:lightslategrey;
+    position:absolute;
+    bottom:-53px;
+    left:360px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:14px;
+}
+
+/**like, edit, and delete buttons to comment**/
+#like-button-comment{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position:absolute;
+    bottom:-53px;
+    left:245px;
+    font-size:14px;
+}
+
+#edit-button-comment{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position:absolute;
+    bottom:-53px;
+    left:320px;
+    font-size:14px;
+}
+
+#delete-button-comment{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position:absolute;
+    bottom:-53px;
+    left:395px;
+    font-size:14px;
+}
+
+
+/**like, edit, and delete icon for comment response**/
+#like-icon-three{
+    position:absolute;
+    color:rgb(58, 57, 57);
+    bottom:-513px;
+    left:163px;
+    size:12px;
+}
+
+#edit-icon-one{
+    position:absolute;
+    color:rgb(58, 57, 57);
+    bottom:-41px;
+    left:300px;
+    size:12px;
+
+}
+
+#delete-icon-one{
+    position:absolute;
+    color:rgb(58, 57, 57);
+    bottom:-41px;
+    left:375px;
+    size:12px;
+
+}
+
+
+
+
